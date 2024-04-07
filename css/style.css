@@ -434,6 +434,21 @@ font-weight: bold;
         padding: 20px;
     }
 
+    .au-nav {
+        height: 10vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .au-nav a{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
     .au-about {
         display: flex;
         flex-direction: column-reverse;
