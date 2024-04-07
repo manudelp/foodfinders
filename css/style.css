@@ -350,3 +350,27 @@ font-weight: bold;
     background-color: var(--secondary);
     color: var(--light);
 }
+
+@media (max-width: 768px){
+    .au-header {
+        flex-direction: column;
+        height: unset;
+        padding: 20px;
+    }
+
+    .au-about {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .au-img {
+        padding: 20px;
+    }
+
+    .au-numbers {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
