@@ -10,6 +10,7 @@ margin-right: 20px;
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -33,10 +34,25 @@ body {
     gap: 5px; /* Adjust the space between items */
 }
 
-.navItem {
-    flex-grow: 10; /* Each item takes equal space */
-    text-align: center; /* Center align text */
+.headerNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.navLink {
+    padding: 20px;
+    border-radius: 36px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navLink:hover {
+    background-color: #c00000;
+}
+
 
 .header .whatWeDo a,
 .header .benShapiroMemes a,
@@ -46,7 +62,6 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 
 
 .footer {
