@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | The Food Scramblers</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+</head>
+<body class="au-body">
+    <div class="au-header">
+        <a class="header__logo" href="index.html">
+            <img src="img/icon.png" alt="The Food Scramblers">
+            <h2>The Food Scramblers</h2>
+        </a>
+
+
+        <nav class="au-nav">
+            <a href="about-us.html" class="au-nav-link">About us</a>
+            <a href="benShapiroMemes.html" class="au-nav-link">Ben Shapiro Memes</a>
+            <a href="contactUS.html" class="au-nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <main class="au-main">
+        <div class="au-about">
+            <div class="au-img">
+                <img src="img/about-us.jpg" alt="The Team">
+            </div>
+            <div class="about__info">
+                <h1 class="info__title">About Us:<br><span>The Food Scramblers' Team</span></h1>
+                <p class="info__text">At <span>The Food Scramblers</span>, we're on a mission to tackle one of the most pressing issues of our time: food wastage. Every day, countless perfectly good meals go uneaten and end up in landfills, contributing to environmental degradation and exacerbating food insecurity.
+                <br><br>    
+                Our passion lies in transforming this wasteful cycle into an opportunity for positive change. We believe that by rescuing surplus food and redistributing it to those in need, we can make a significant impact on both environmental sustainability and social justice.
+                <br><br>   
+                Through strategic partnerships with food producers, distributors, and local charities, we intercept surplus food that would otherwise be discarded and redirect it to communities facing food insecurity. By doing so, we not only reduce waste but also provide nutritious meals to individuals and families who need it most.
+                <br><br>    
+                At <span>Food Scramblers</span>, we're more than just a company - we're a movement. We're driven by the belief that no one should go hungry while perfectly good food goes to waste. Join us in our mission to scramble the status quo and build a brighter, more sustainable future for all. Together, let's turn wasted food into nourishment, one meal at a time.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="au-numbers container">
+        <div class="au-number">
+            <h2 class="number__title"><span id="wastedFood">1.3</span> Billion</h2>
+            <p class="number__text">Tons of food are wasted globally each year, contributing to environmental degradation and food insecurity.</p>
+        </div>
+        <div class="au-number">
+            <h2 class="number__title"><span id="people">820</span> Million</h2>
+            <p class="number__text">People worldwide suffer from hunger, despite the abundance of food resources available.</p>
+        </div>
+        <div class="au-number">
+            <h2 class="number__title"><span id="percentage">30</span>%</h2>
+            <p class="number__text">Of all food produced is wasted, representing a significant loss of resources and contributing to climate change.</p>
+        </div>
+    </section>
+    <script>
+        var number = 0;
+        var target = 1.3;
+        var element = document.getElementById('wastedFood');
+
+        var interval = setInterval(function() {
+            element.textContent = number.toFixed(2);
+            if (number >= target) clearInterval(interval);
+            number += 0.01;
+        }, 30);
+
+        var number2 = 0;
+        var target2 = 820;
+        var element2 = document.getElementById('people');
+
+        var interval2 = setInterval(function() {
+            element2.textContent = number2.toFixed(0);
+            if (number2 >= target2) clearInterval(interval2);
+            number2 += 10;
+        }, 30);
+
+        var number3 = 0;
+        var target3 = 30;
+        var element3 = document.getElementById('percentage');
+
+        var interval3 = setInterval(function() {
+            element3.textContent = number3.toFixed(0);
+            if (number3 >= target3) clearInterval(interval3);
+            number3 += 1;
+        }, 30);
+    </script>
+
+    <section class="container">
+        <div class="au-cta">
+            <div class="cta__info">
+                <h2 class="cta__title">Join Us in Scrambling the Status Quo</h2>
+                <p class="cta__text">Together, we can make a difference by rescuing surplus food and redistributing it to those in need. Join our movement today and help us build a brighter, more sustainable future for all.</p>
+            </div>
+            <a href="contactUS.html" style="width: 100%;"><button class="cta__btn">Get Involved</button></a>
+        </div>
+    </section>
+
+
+    <div class="au-footer">
+        <p>&copy; <span id="year"></span> The Food Scramblers. All rights reserved.</p>
+    </div>
+    <script>
+        const year = new Date().getFullYear();
+        document.getElementById('year').textContent = year;
+    </script>
+
+</body>
+</html>
