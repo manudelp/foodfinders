@@ -21,10 +21,12 @@
     </div>
 
     <script>
-        setTimeout(function() {
-            const preloader = document.querySelector('.preloader');
-            preloader.remove();
-        }, 1000);
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                const preloader = document.querySelector('.preloader');
+                preloader.remove();
+            }, 1000);
+        });
     </script>
 
     <div class="au-header">
