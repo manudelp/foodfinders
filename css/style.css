@@ -546,9 +546,28 @@ body {
 
 .contactMain {
     width: 60%;
-    margin-left: 20px;
+    margin-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
 }
+
+.contact__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 50px; /* Gap between grid items */
+    padding: 50px; /* Add some padding around the grid */
+}
+
+.contact__info img {
+    width: 100%; /* Make the image fill its parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Limit the image width to prevent stretching */
+    max-height: 100%; /* Limit the image height to prevent stretching */
+}
+
+
+
+
+
