@@ -112,24 +112,24 @@ body {
 }
 
 .ourMission h2 {
-width: 100%;
-height: 35px;
-margin-bottom: 0px;
-color: maroon;
-text-align: center;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 0px;
+    color: maroon;
+    text-align: center;
 }
 
 .ourMission p{
-color: black; 
-line-height: 1.5;
-text-align: center;
-justify-content: space-evenly;
-margin-left: 75px;
-margin-right: 75px;
+    color: black; 
+    line-height: 1.5;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .ourMission strong {
-font-weight: bold;
+    font-weight: bold;
 }
 
 .ourMission small {
@@ -468,7 +468,7 @@ font-weight: bold;
         flex-direction: column;
         gap: 20px;
     }
-
+}
 /* Slider para los memes de Ben Shapiro */
 
 .slider {
@@ -514,13 +514,11 @@ font-weight: bold;
 .them_ben_memes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; /* Adjust the gap as needed */
+    align-items: center;
+    justify-items: center;
 }
 
 .them_ben_memes img {
-    max-width: 100%; /* Ensure images don't exceed their container's width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
+    width: 100%;
+    height: 100%;
 }
