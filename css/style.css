@@ -505,5 +505,17 @@ font-weight: bold;
 .next {
     right: 10px;
 }
-    
+
+.them_ben_memes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.them_ben_memes img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 }
