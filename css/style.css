@@ -350,12 +350,13 @@ body {
     color: var(--secondary)
 }
 
-.au-footer {
+.subFooter {
     background-color: var(--secondary);
     font-family: var(--title);
     color: var(--light);
     text-align: center;
     padding: 20px;
+    bottom: 0;
 }
 
 .au-numbers {
@@ -541,4 +542,13 @@ body {
 
 .next {
     right: 10px;
+}
+
+.contactMain {
+    width: 60%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
