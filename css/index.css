@@ -12,31 +12,46 @@
     width: 90%;
     height: 75px;
     color: whitesmoke;
-    background-color: #800000;
+    background-color: #be3434;
     display: flex;
-    gap: 5px; /* Adjust the space between items */
+    gap: 10px; /* Adjust the space between items */
     justify-content: flex-start; /* Align items to the left */
     align-items: center;
     position: fixed;
     top: 10px;
     left: 5%; /* Adjusted left position */
     right: 5%; /* Adjusted right position */
-    border-radius: 10px;
+    border-radius: 42px;
 }
 
 
-.logotext {
-    width: 100px; 
-    height: auto; 
-    margin-left: 20px;
+.head_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-height: 10vh;
+    color: var(--light);
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.head_icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.head_icon h3 {
+    margin-right: 50px; /* Increase the right margin of the h3 element */
 }
 
 .headerNav {
     display: flex;
+    justify-content: flex-start;
 }
 
 .navLink {
-    margin-left: 10px;
+    margin-left: 25px;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -45,12 +60,26 @@
     margin-left: 0; /* Remove margin for the first item */
 }
 
+.downloadApp {
+    margin-left: 220px; /* Push 'Download the App' to the right */
+    background-color: #D2B48C; /* Light brown background */
+    color: #000; /* Text color */
+    border-radius: 20px; /* Rounded corners */
+    text-decoration: none;
+}
+
+/* Hover state */
+.downloadApp:hover {
+    background-color: #8B4513; /* Dark brown background on hover */
+    color: #fff; /* Text color on hover */
+}
+
 .main {
     margin: 100px 0;
 }
 
 .navLink {
-    padding: 20px;
+    padding: 12px 20px;
     border-radius: 36px;
     color: white;
     text-decoration: none;
@@ -61,16 +90,12 @@
     background-color: #c00000;
 }
 
-
 .header .whatWeDo a,
 .header .benShapiroMemes a,
 .header .contactUs a {
     color: whitesmoke; /* Sets the text color to white */
     text-decoration: none; /* Removes underline */
-    margin-left: 100px;
-    margin-right: 100px;
 }
-
 
 .footer {
     width: 100%;
