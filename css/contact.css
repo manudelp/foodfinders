@@ -1,0 +1,33 @@
+:root {
+    --primary: #c00000;
+    --secondary: maroon;
+    --light: #f4f4f4;
+    --dark: #333;
+
+    --title: 'Tilt Neon', sans-serif;
+    --text: 'Quicksand', sans-serif;
+}
+
+.contactMain {
+    width: min(1200px, 90%);
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.contact__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    gap: 50px; /* Gap between grid items */
+    padding: 50px; /* Add some padding around the grid */
+}
+
+.contact__info img {
+    width: 100%; /* Make the image fill its parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Limit the image width to prevent stretching */
+    max-height: 100%; /* Limit the image height to prevent stretching */
+}
