@@ -381,25 +381,6 @@ body {
     width: 100%;
 }
 
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 24px;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
 .them_ben_memes {
     position: relative; /* Required for positioning arrows */
 }
@@ -409,8 +390,8 @@ body {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center the text */
-    margin-top: 15px;
-    margin-bottom: 20px; /* Add margin below each image */
+    margin-top: 5px;
+    margin-bottom: 25px; /* Add margin below each image */
 }
 
 .them_ben_memes img {
@@ -429,7 +410,8 @@ body {
 
 .arrow {
     position: absolute;
-    top: 50%;
+    top: 250px;
+
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 24px;
@@ -439,11 +421,11 @@ body {
 }
 
 .prev {
-    left: 10px;
+    left: 300px;
 }
 
 .next {
-    right: 10px;
+    right: 300px;
 }
 
 .contactMain {
