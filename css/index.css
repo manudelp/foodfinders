@@ -9,7 +9,7 @@
 }
 
 .header {
-    width: 100%;
+    width: 80%; /* Set the width to 80% */
     height: 75px;
     color: whitesmoke;
     background-color: #800000;
@@ -18,7 +18,11 @@
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 25px;
+    left: 10%; /* Set left margin to 10% */
+    right: 10%; /* Set right margin to 10% */
+    margin: 0; /* Resetting margin */
+    border-radius: 10px; /* Adjust the value as needed */
 }
 
 .header {
