@@ -62,20 +62,10 @@
 
 .downloadApp {
     margin-left: 220px; /* Push 'Download the App' to the right */
-    background-color: #D2B48C; /* Light brown background */
+    background-color: #815527; /* Light brown background */
     color: #000; /* Text color */
     border-radius: 20px; /* Rounded corners */
     text-decoration: none;
-}
-
-/* Hover state */
-.downloadApp:hover {
-    background-color: #8B4513; /* Dark brown background on hover */
-    color: #fff; /* Text color on hover */
-}
-
-.main {
-    margin: 100px 0;
 }
 
 .navLink {
@@ -88,6 +78,16 @@
 
 .navLink:hover {
     background-color: #c00000;
+}
+
+/* Hover state */
+.downloadApp:hover {
+    background-color: #612c06; /* Dark brown background on hover */
+    color: whitesmoke; /* Text color on hover */
+}
+
+.main {
+    margin: 100px 0;
 }
 
 .header .whatWeDo a,
